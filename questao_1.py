@@ -1,4 +1,4 @@
-# Faça um programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+# 1- Faça um programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
 
 # a) A mensagem "Aprovado", se a média for maior ou igual a 7, com a respectiva média alcançada;
 
@@ -12,7 +12,7 @@ n3 = float(input("Informe a nota 3: "))
 
 media = (n1 + n2 + n3) / 3
 
-print(f'Média: {media:.1f}'.format())
+print(f'Média: {media:.1f}')
 
 if media >= 7 and media < 10:
     print('Aprovado!')
