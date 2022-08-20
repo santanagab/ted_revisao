@@ -3,4 +3,4 @@
 n = float(input('Informe uma nota entre 0 e 10: '))
 while n < 0 or n > 10:
     n = float(input("{:.1f} é um valor inválido. Informe uma nota entre 0 e 10: ".format(n)))
-print('{:.1f} é um valor válido. Obrigado!'.format(n))
+print(f'{n:.1f} é um valor válido. Obrigado!'.format())

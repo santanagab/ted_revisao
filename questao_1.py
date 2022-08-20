@@ -12,7 +12,7 @@ n3 = float(input("Informe a nota 3: "))
 
 media = (n1 + n2 + n3) / 3
 
-print('Média: {:.1f}'.format(media))
+print(f'Média: {media:.1f}'.format())
 
 if media >= 7 and media < 10:
     print('Aprovado!')
