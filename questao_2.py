@@ -2,5 +2,5 @@
 
 n = float(input('Informe uma nota entre 0 e 10: '))
 while n < 0 or n > 10:
-    n = float(input(f"{n:.1f} é um valor inválido. Informe uma nota entre 0 e 10: "))
+    n = float(input(f"{n:.1f} é um valor inválido. \nInforme uma nota entre 0 e 10: "))
 print(f'{n:.1f} é um valor válido. Obrigado!')
