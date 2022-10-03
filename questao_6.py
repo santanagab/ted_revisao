@@ -10,7 +10,7 @@ for pessoa in range (1, 6):
     recebe_idade.append(idade)
     recebe_altura.append(altura)
 
-print('-' * 25)
+print('--' * 25)
 print('Ordem inversa:')
 print(f'Alturas: {recebe_altura[::-1]}')
 print(f'Idades: {recebe_idade[::-1]}')    
